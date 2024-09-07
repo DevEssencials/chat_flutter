@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "501087584247",
+    "project_id": "treinando-firebase-ac101",
+    "storage_bucket": "treinando-firebase-ac101.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501087584247:android:3ca54deb8dba23959cb8f2",
+        "android_client_info": {
+          "package_name": "com.example.barna_chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlWshsPPSBB9p6ZN3YkAq6UvXNIbOjIYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
