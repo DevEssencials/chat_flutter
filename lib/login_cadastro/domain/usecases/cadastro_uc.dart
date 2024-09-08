@@ -5,12 +5,12 @@ import 'package:barna_chat/login_cadastro/util/failure_server.dart';
 import 'package:barna_chat/login_cadastro/util/model_use_case.dart';
 import 'package:dartz/dartz.dart';
 
-class RegisterUseCase implements UseCase<User, LoginParams>{
+class RegisterUseCase implements UseCase<User, RegisterParams>{
   final AuthRepository authRepository;
   RegisterUseCase(this.authRepository);
 
   @override
-  Future<Either<Failure, User>> call(LoginParams params) async {
+  Future<Either<Failure, User>> call(RegisterParams params) async {
     return authRepository.login(params.email, params.password);
   }
 
