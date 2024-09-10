@@ -15,6 +15,9 @@ class LoginForm extends StatefulWidget {
 class _LoginFormState extends State<LoginForm> {
   final TextEditingController _vulgoController = TextEditingController();
   final TextEditingController _senhaController = TextEditingController();
+  final CustomTextField entrarTextField = CustomTextField(
+    hintText: "Entrar", 
+    controller: _vulgoController);
   
   
 
@@ -39,7 +42,7 @@ class _LoginFormState extends State<LoginForm> {
             ),
             const SizedBox(height: 20,),
             //email ou vulgo
-            CustomTextField(hintText: "Entrar", controller: _vulgoController),
+            entrarTextField,
             //senha
             TextFormField(),
             // text input(esqueceu senha)
