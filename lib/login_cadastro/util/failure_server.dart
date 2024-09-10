@@ -12,14 +12,14 @@ abstract class Failure {
 
 // Falha específica do servidor
 class ServerFailure extends Failure {
-  ServerFailure({String message = 'Server failure'}) : super(message: message);
+  ServerFailure({super.message = 'Server failure'});
 }
 
 // Exemplo de outras possíveis falhas (pode expandir conforme necessário)
 class NetworkFailure extends Failure {
-  NetworkFailure({String message = 'Network failure'}) : super(message: message);
+  NetworkFailure({super.message = 'Network failure'});
 }
 
 class CacheFailure extends Failure {
-  CacheFailure({String message = 'Cache failure'}) : super(message: message);
+  CacheFailure({super.message = 'Cache failure'});
 }

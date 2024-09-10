@@ -6,7 +6,7 @@ class User{
   
 
   User({
-    this.vulgo, 
+    required this.vulgo, 
     required this.email, 
     required this.senha, 
     });
