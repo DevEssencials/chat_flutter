@@ -1,4 +1,5 @@
-import 'package:barna_chat/login_cadastro/presenter/usecases/login_page.dart';
+import 'package:barna_chat/feature_auth/presenter/pages/login_page.dart';
+import 'package:barna_chat/feature_auth/presenter/pages/register_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -36,10 +37,10 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
         useMaterial3: true,
       ),
-      home: const LoginPage(),
+      home: const RegisterPage(),
     );
   }
 }
